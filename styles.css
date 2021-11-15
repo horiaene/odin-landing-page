@@ -1,0 +1,135 @@
+html {
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(41, 41, 41);
+}
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+header,
+.banner {
+  padding-left: 200px;
+  padding-right: 200px;
+  background-color: #cc0000;
+  margin: 0;
+  display: flex;
+  color: antiquewhite;
+}
+
+header {
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.banner {
+  justify-content: stretch;
+  align-items: center;
+  padding-top: 20px;
+}
+.banner .left {
+  width: 100%;
+}
+button {
+  padding: 7px;
+}
+.banner .right {
+  /*max-width: 100%;*/
+  width: 544px;
+  height: 306px;
+  margin-right: -60px;
+}
+
+.logo {
+  font-family: "Exo", sans-serif;
+  font-weight: 800;
+  font-size: 50px;
+  color: white;
+}
+li {
+  list-style-type: none;
+}
+
+ul {
+  display: flex;
+  gap: 15px;
+}
+
+.thumbnails {
+  display: flex;
+  margin-top: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.thumbnails-container {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  gap: 40px;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.thumbnail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+  /*background-color: chocolate;*/
+  border-radius: 5%;
+  border: 2px;
+  width: 160px;
+  margin-top: 0px;
+  text-align: center;
+}
+.thumbnail img {
+  width: 160px;
+  height: 160px;
+  margin-bottom: auto;
+  padding: 0;
+  border-radius: 10px;
+  border: darkgray;
+  object-fit: cover;
+  box-shadow: 0px 0px 10px darkgray;
+}
+.thmb-txt {
+  margin: auto;
+}
+
+.quote {
+  margin-top: 50px;
+  padding: 80px;
+  background-color: #cc0000;
+  color: antiquewhite;
+  font-size: 30px;
+  padding: 50px 300px 50px 300px;
+}
+.quote-text {
+  text-align: center;
+  font-style: italic;
+}
+.quote-author {
+  font-size: 20px;
+  text-align: end;
+}
+
+.bottom {
+  background-color: darkgrey;
+  border-radius: 20px;
+  display: flex;
+  margin: 100px 300px 100px 300px;
+  padding: 50px 100px 50px 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer {
+  background-color: #cc0000;
+  text-align: center;
+}
